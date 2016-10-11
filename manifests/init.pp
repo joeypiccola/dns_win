@@ -38,7 +38,7 @@ class dns_win (
   validate_string($interfacealias)
 
   dsc_xdnsserveraddress { $primary_interface:
-    dsc_address        => $dns_servers,
+    dsc_address        => $dnsservers,
     dsc_interfacealias => $interfacealias,
     dsc_addressfamily  => 'IPv4',
   }   
