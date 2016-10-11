@@ -34,10 +34,10 @@ class dns_win (
 ){
 
   # parameter validatoin
-  validate_array($dns_servers)
+  validate_array($dnsservers)
   validate_string($interfacealias)
 
-  dsc_xdnsserveraddress { $primary_interface:
+  dsc_xdnsserveraddress { $interfacealias:
     dsc_address        => $dnsservers,
     dsc_interfacealias => $interfacealias,
     dsc_addressfamily  => 'IPv4',
