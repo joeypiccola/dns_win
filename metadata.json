@@ -1,0 +1,14 @@
+{
+  "name": "jpi-dns_win",
+  "version": "0.1.0",
+  "author": "Joey Piccola <joey@joeypiccola.com>",
+  "summary": "Puppet module for managing DNS on Windows.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/joeypiccola/dns_win.git",
+  "project_page": "https://github.com/joeypiccola/dns_win",
+  "issues_url": "https://github.com/joeypiccola/dns_win/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
