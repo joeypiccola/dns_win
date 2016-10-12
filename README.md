@@ -4,7 +4,7 @@ Manage the IPv4 client DNS servers on Windows systems.
 
 ## Parameters
 
-* ```dnsservers```			- An array of DNS servers to use in order or Primary, Secondary and so on.
+* ```dnsservers```			- An array of DNS servers to use in order of Primary, Secondary and so on.
 * ```interfacealias```		- The interface alias of the network adapter to manage DNS for.
 
 ## Usage
