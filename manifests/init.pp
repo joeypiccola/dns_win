@@ -2,14 +2,14 @@
 #
 #   Manage DNS for a specified network interface in Windows. Leverage puppetlabs dsc
 #   (specifically the  PowerShell/xNetworking/xDnsServerAddress resource to manage the 
-#	change.
+#	  change.
 #
 # === Parameters
 #
 # [*dnsservers*]
-#   An array of servers to set as DNS, in order from Primary, Secondary and so on. 
-#  [*interfacealias*]
-#   The alias of the adapter you want to manage.
+#  An array of servers to set as DNS, in order from Primary, Secondary and so on. 
+# [*interfacealias*]
+#  The alias of the adapter you want to manage.
 #
 # === Examples
 #
