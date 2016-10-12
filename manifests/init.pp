@@ -1,7 +1,7 @@
 # == Class: dns_win
 #
-#   Manage DNS for a specified network interface in Windows. Leverage puppetlabs dsc
-#   (specifically the  PowerShell/xNetworking/xDnsServerAddress resource to manage the 
+#   Manage DNS for a specified network interface in Windows. Leverage the puppetlabs dsc
+#   resource (specifically the PowerShell/xNetworking/xDnsServerAddress) to manage the 
 #   change.
 #
 # === Parameters
