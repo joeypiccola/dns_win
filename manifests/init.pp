@@ -14,8 +14,8 @@
 # === Examples
 #
 #  class { ::dns_win:
-#    dnsservers		= ['1.1.1.1','2.2.2.2','3.3.3.3'],
-#    interfacealias	= 'Ethernet'
+#    dnsservers		= [ '1.1.1.1', '2.2.2.2', '3.3.3.3' ],
+#    interfacealias	= 'Ethernet',
 #  }
 #
 # === Authors
