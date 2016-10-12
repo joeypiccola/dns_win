@@ -2,7 +2,7 @@
 #
 #   Manage DNS for a specified network interface in Windows. Leverage puppetlabs dsc
 #   (specifically the  PowerShell/xNetworking/xDnsServerAddress resource to manage the 
-#	  change.
+#   change.
 #
 # === Parameters
 #
@@ -33,7 +33,7 @@ class dns_win (
 
 ){
 
-  # parameter validatoin
+  # parameter validation
   validate_array($dnsservers)
   validate_string($interfacealias)
 
